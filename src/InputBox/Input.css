@@ -1,0 +1,28 @@
+.Input {
+    border : none;
+    border-bottom: 1px grey solid;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.Label {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.Input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px grey solid;
+}
+
+
+
+
+.Phone:focus {
+    outline : none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px grey solid;
+}

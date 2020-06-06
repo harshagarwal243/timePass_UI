@@ -1,0 +1,67 @@
+
+
+.Log-Button {
+    box-sizing: border-box;
+    font-size: 23px;
+    display: inline-block;
+    width: 50%;
+    box-shadow: 5px 5px 8px #cccccc;
+    padding : 10px 0px;
+    border-bottom: 4px white solid;
+}
+
+.Sign-Button {
+    box-sizing: border-box;
+    font-size: 23px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 4px #ff9900 solid;
+    padding : 10px 0px;
+}
+
+.Link {
+    color :  #ff9900;
+    
+}
+
+
+.Link:hover{
+ text-decoration: none;
+ color: #ff9900;
+ 
+}
+
+
+
+.card-1 ,.card-2{
+    margin : 20px 0px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    width : 100%;
+    box-sizing: border-box;
+}
+
+.card-1 > .Link,.card-2> .Link {
+    color : white;
+}
+.card-1:hover , .card-2:hover{ 
+    background-color: #ff9900;
+}
+.card-1:hover > .Link,.card-2:hover > .Link {
+    color : white;
+}
+
+
+
+.Signup-section {
+    padding:  80px 30px 30px;
+
+}
+
+
+@media (max-width : 600px) {
+    .Signup-section {
+        padding : 10px 0px;
+    }
+}
